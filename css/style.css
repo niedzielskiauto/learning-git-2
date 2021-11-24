@@ -40,9 +40,17 @@ header {
     background: linear-gradient(to right top, rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.25));
     position: relative;
     backdrop-filter: blur(8px);
-    padding: 30px;
+    padding: 60px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+}
+
+.header__description {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 30px;
 }

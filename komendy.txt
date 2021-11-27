@@ -1,0 +1,10 @@
+Instalacja 
+sudo npm install --save-dev autoprefixer-cli
+Wykonanie
+autoprefixer-cli -o style.prefixed.css css/style.css
+
+Instalacja
+sudo npm install --save-dev html-validate
+Wykonanie
+sudo npm exec html-validate *.html
+html-validate start *.html node_modules/.bin.html-validate
